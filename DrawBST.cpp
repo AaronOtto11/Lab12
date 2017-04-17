@@ -49,7 +49,7 @@ ListArray<CD>* cds = CD::readCDs("cds.txt");
    delete cds;
 
    //BinarySearchTree<CD>* min = bst->minimizeComplete();
-   BinarySearchTree<CD>* min = bst->minimize();
+  BinarySearchTree<CD>* min = bst->minimize();
    delete bst;
    bst = min;
 
